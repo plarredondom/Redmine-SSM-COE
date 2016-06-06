@@ -1,0 +1,44 @@
+[ 2016-05-12 13:13:36.2551 1824/7f8997da77c0 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-05-12 13:13:36.2993 1827/7ff658fd87c0 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-05-12 13:13:36.2997 1827/7ff658fd87c0 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-05-12 13:13:36.3046 1827/7ff658fd87c0 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 1827
+[ 2016-05-12 13:13:36.3601 1832/7fbd9b4117c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-05-12 13:13:36.3627 1832/7fbd9b4117c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1832
+2016/05/12 13:13:38 [error] 1848#0: *4 "/var/www/redmine/config/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+
+[ 2016-05-12 13:14:23.3094 1827/7ff652807700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:14:23.3095 1827/7ff658fd87c0 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:14:23.3096 1827/7ff652006700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:14:23.3097 1827/7ff652006700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-05-12 13:14:23.3110 1827/7ff652807700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-05-12 13:14:23.3110 1827/7ff652807700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-05-12 13:14:23.3185 1832/7fbd94c05700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:14:23.3188 1832/7fbd9b4117c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:14:23.3189 1832/7fbd8ffff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:14:23.3189 1832/7fbd8ffff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-05-12 13:14:23.3198 1832/7fbd94c05700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-05-12 13:14:23.3202 1832/7fbd9b4117c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-05-12 13:14:23.3352 1827/7ff658fd87c0 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-05-12 13:21:29.8188 2066/7f85f4bd67c0 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-05-12 13:21:29.8641 2069/7feb58ff77c0 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-05-12 13:21:29.8645 2069/7feb58ff77c0 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-05-12 13:21:29.8695 2069/7feb58ff77c0 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 2069
+[ 2016-05-12 13:21:29.9185 2074/7f3c6bd457c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-05-12 13:21:29.9210 2074/7f3c6bd457c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2074
+2016/05/12 13:21:32 [error] 2090#0: *4 "/var/www/redmine/config/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+
+[ 2016-05-12 13:21:39.1699 2069/7feb52826700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:21:39.1701 2069/7feb58ff77c0 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:21:39.1702 2069/7feb52025700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:21:39.1703 2069/7feb52025700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-05-12 13:21:39.1715 2069/7feb52826700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-05-12 13:21:39.1715 2069/7feb52826700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-05-12 13:21:39.1737 2074/7f3c65539700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:21:39.1740 2074/7f3c6bd457c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:21:39.1741 2074/7f3c64d38700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:21:39.1741 2074/7f3c64d38700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-05-12 13:21:39.1750 2074/7f3c65539700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-05-12 13:21:39.1751 2074/7f3c6bd457c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-05-12 13:21:39.1939 2069/7feb58ff77c0 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
