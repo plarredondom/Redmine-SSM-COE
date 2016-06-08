@@ -1,0 +1,1125 @@
+[ 2016-05-11 08:42:35.8228 1511/7ff0fc46c7c0 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-05-11 08:42:35.8710 1514/7f97122407c0 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-05-11 08:42:35.8715 1514/7f97122407c0 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-05-11 08:42:35.8797 1514/7f97122407c0 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 1514
+[ 2016-05-11 08:42:35.9302 1519/7f5c9d01a7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-05-11 08:42:35.9329 1519/7f5c9d01a7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1519
+App 1550 stdout: 
+App 1550 stderr: /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/htmlentities-4.3.1/lib/htmlentities/mappings/expanded.rb:465: warning: duplicated key at line 466 ignored: "inodot"
+App 1550 stdout: 
+[ 2016-05-11 08:42:48.8857 1514/7f970c270700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /var/www/redmine: An error occurred while starting up the preloader.
+  Error ID: 2e405e55
+  Error details saved to: /tmp/passenger-error-WJRd95.html
+  Message from application: Access denied for user 'root'@'localhost' (using password: NO) (Mysql2::Error)
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/mysql2-0.3.21/lib/mysql2/client.rb:70:in `connect'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/mysql2-0.3.21/lib/mysql2/client.rb:70:in `initialize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:87:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/model_schema.rb:230:in `table_exists?'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:97:in `get_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:85:in `reset_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:73:in `primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_record/mass_assignment_security/attribute_assignment.rb:15:in `attributes_protected_by_default'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:337:in `block in protected_attributes_configs'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `yield'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `protected_attributes'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:126:in `block in attr_protected'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `attr_protected'
+  /var/www/redmine/app/models/custom_field.rb:36:in `<class:CustomField>'
+  /var/www/redmine/app/models/custom_field.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `block in load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:647:in `new_constants_in'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:456:in `load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:354:in `require_or_load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:494:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /var/www/redmine/lib/redmine/field_format.rb:87:in `field_attributes'
+  /var/www/redmine/lib/redmine/field_format.rb:90:in `<class:Base>'
+  /var/www/redmine/lib/redmine/field_format.rb:48:in `<module:FieldFormat>'
+  /var/www/redmine/lib/redmine/field_format.rb:19:in `<module:Redmine>'
+  /var/www/redmine/lib/redmine/field_format.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/lib/redmine.rb:38:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/config/initializers/30-redmine.rb:6:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/notifications.rb:166:in `instrument'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `run'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:226:in `block in tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:420:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:429:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:419:in `block in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:224:in `tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:203:in `tsort_each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/application.rb:352:in `initialize!'
+  /var/www/redmine/config/environment.rb:14:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `eval'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-05-11 08:42:48.9464 1514/7f97077fe700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 2e405e55. Please see earlier logs for details about the error.
+
+[ 2016-05-11 08:44:11.8914 1514/7f97077fe700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-11 08:44:11.8917 1514/7f97122407c0 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-11 08:44:11.8927 1514/7f9706ffd700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-05-11 08:44:11.8927 1514/7f9706ffd700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-05-11 08:44:11.8944 1514/7f97077fe700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-05-11 08:44:11.8945 1514/7f97077fe700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-05-11 08:44:11.9033 1519/7f5c9680e700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-11 08:44:11.9037 1519/7f5c9d01a7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-11 08:44:11.9038 1519/7f5c9600d700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-05-11 08:44:11.9038 1519/7f5c9600d700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-05-11 08:44:11.9049 1519/7f5c9680e700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-05-11 08:44:11.9050 1519/7f5c9d01a7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-05-11 08:44:11.9248 1514/7f97122407c0 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-05-11 13:59:30.4751 1696/7f02475907c0 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-05-11 13:59:30.5206 1699/7fe8fcfe57c0 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-05-11 13:59:30.5213 1699/7fe8fcfe57c0 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-05-11 13:59:30.5298 1699/7fe8fcfe57c0 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 1699
+[ 2016-05-11 13:59:30.5806 1704/7f634fd817c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-05-11 13:59:30.5832 1704/7f634fd817c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1704
+App 1737 stdout: 
+App 1737 stderr: /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/htmlentities-4.3.1/lib/htmlentities/mappings/expanded.rb:465: warning: duplicated key at line 466 ignored: "inodot"
+App 1737 stdout: 
+[ 2016-05-11 13:59:36.7549 1699/7fe8f5812700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /var/www/redmine: An error occurred while starting up the preloader.
+  Error ID: e0a82d55
+  Error details saved to: /tmp/passenger-error-NldKDO.html
+  Message from application: Access denied for user 'root'@'localhost' (using password: NO) (Mysql2::Error)
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/mysql2-0.3.21/lib/mysql2/client.rb:70:in `connect'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/mysql2-0.3.21/lib/mysql2/client.rb:70:in `initialize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:87:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/model_schema.rb:230:in `table_exists?'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:97:in `get_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:85:in `reset_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:73:in `primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_record/mass_assignment_security/attribute_assignment.rb:15:in `attributes_protected_by_default'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:337:in `block in protected_attributes_configs'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `yield'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `protected_attributes'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:126:in `block in attr_protected'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `attr_protected'
+  /var/www/redmine/app/models/custom_field.rb:36:in `<class:CustomField>'
+  /var/www/redmine/app/models/custom_field.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `block in load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:647:in `new_constants_in'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:456:in `load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:354:in `require_or_load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:494:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /var/www/redmine/lib/redmine/field_format.rb:87:in `field_attributes'
+  /var/www/redmine/lib/redmine/field_format.rb:90:in `<class:Base>'
+  /var/www/redmine/lib/redmine/field_format.rb:48:in `<module:FieldFormat>'
+  /var/www/redmine/lib/redmine/field_format.rb:19:in `<module:Redmine>'
+  /var/www/redmine/lib/redmine/field_format.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/lib/redmine.rb:38:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/config/initializers/30-redmine.rb:6:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/notifications.rb:166:in `instrument'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `run'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:226:in `block in tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:420:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:429:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:419:in `block in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:224:in `tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:203:in `tsort_each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/application.rb:352:in `initialize!'
+  /var/www/redmine/config/environment.rb:14:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `eval'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-05-11 13:59:36.8083 1699/7fe8f6814700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is e0a82d55. Please see earlier logs for details about the error.
+
+[ 2016-05-11 14:02:56.0486 1699/7fe8f6814700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-11 14:02:56.0487 1699/7fe8fcfe57c0 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-11 14:02:56.0488 1699/7fe8f6013700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-05-11 14:02:56.0489 1699/7fe8f6013700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-05-11 14:02:56.0502 1699/7fe8f6814700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-05-11 14:02:56.0503 1699/7fe8f6814700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-05-11 14:02:56.0582 1704/7f6349575700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-11 14:02:56.0584 1704/7f634fd817c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-11 14:02:56.0587 1704/7f6348d74700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-05-11 14:02:56.0587 1704/7f6348d74700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-05-11 14:02:56.0595 1704/7f6349575700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-05-11 14:02:56.0597 1704/7f634fd817c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-05-11 14:02:56.0769 1699/7fe8fcfe57c0 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-05-11 14:20:47.3912 1808/7f39575017c0 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-05-11 14:20:47.4365 1811/7efc208427c0 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-05-11 14:20:47.4369 1811/7efc208427c0 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-05-11 14:20:47.4429 1811/7efc208427c0 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 1811
+[ 2016-05-11 14:20:47.4918 1816/7fd5f179c7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-05-11 14:20:47.4943 1816/7fd5f179c7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1816
+App 1849 stdout: 
+App 1849 stderr: /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/htmlentities-4.3.1/lib/htmlentities/mappings/expanded.rb:465: warning: duplicated key at line 466 ignored: "inodot"
+App 1849 stdout: 
+[ 2016-05-11 14:20:53.7081 1811/7efc1906f700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /var/www/redmine: An error occurred while starting up the preloader.
+  Error ID: 6777733d
+  Error details saved to: /tmp/passenger-error-K6k0Kq.html
+  Message from application: Access denied for user 'root'@'localhost' (using password: NO) (Mysql2::Error)
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/mysql2-0.3.21/lib/mysql2/client.rb:70:in `connect'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/mysql2-0.3.21/lib/mysql2/client.rb:70:in `initialize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:87:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/model_schema.rb:230:in `table_exists?'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:97:in `get_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:85:in `reset_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:73:in `primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_record/mass_assignment_security/attribute_assignment.rb:15:in `attributes_protected_by_default'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:337:in `block in protected_attributes_configs'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `yield'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `protected_attributes'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:126:in `block in attr_protected'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `attr_protected'
+  /var/www/redmine/app/models/custom_field.rb:36:in `<class:CustomField>'
+  /var/www/redmine/app/models/custom_field.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `block in load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:647:in `new_constants_in'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:456:in `load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:354:in `require_or_load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:494:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /var/www/redmine/lib/redmine/field_format.rb:87:in `field_attributes'
+  /var/www/redmine/lib/redmine/field_format.rb:90:in `<class:Base>'
+  /var/www/redmine/lib/redmine/field_format.rb:48:in `<module:FieldFormat>'
+  /var/www/redmine/lib/redmine/field_format.rb:19:in `<module:Redmine>'
+  /var/www/redmine/lib/redmine/field_format.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/lib/redmine.rb:38:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/config/initializers/30-redmine.rb:6:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/notifications.rb:166:in `instrument'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `run'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:226:in `block in tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:420:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:429:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:419:in `block in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:224:in `tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:203:in `tsort_each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/application.rb:352:in `initialize!'
+  /var/www/redmine/config/environment.rb:14:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `eval'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-05-11 14:20:53.7637 1811/7efc1a071700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 6777733d. Please see earlier logs for details about the error.
+
+[ 2016-05-11 15:26:56.8337 1811/7efc1a071700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-11 15:26:56.8353 1811/7efc208427c0 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-11 15:26:56.8356 1811/7efc19870700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-05-11 15:26:56.8356 1811/7efc19870700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-05-11 15:26:56.8369 1811/7efc1a071700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-05-11 15:26:56.8369 1811/7efc1a071700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-05-11 15:26:56.8460 1816/7fd5eaf90700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-11 15:26:56.8463 1816/7fd5f179c7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-11 15:26:56.8466 1816/7fd5ea78f700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-05-11 15:26:56.8466 1816/7fd5ea78f700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-05-11 15:26:56.8477 1816/7fd5eaf90700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-05-11 15:26:56.8478 1816/7fd5f179c7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-05-11 15:26:56.8767 1811/7efc208427c0 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-05-12 13:08:51.9294 1651/7f3812a067c0 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-05-12 13:08:51.9893 1654/7fd5889227c0 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-05-12 13:08:51.9897 1654/7fd5889227c0 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-05-12 13:08:51.9944 1654/7fd5889227c0 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 1654
+[ 2016-05-12 13:08:52.0425 1659/7f26485027c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-05-12 13:08:52.0451 1659/7f26485027c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1659
+App 1692 stdout: 
+App 1692 stderr: /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/htmlentities-4.3.1/lib/htmlentities/mappings/expanded.rb:465: warning: duplicated key at line 466 ignored: "inodot"
+App 1692 stdout: 
+[ 2016-05-12 13:09:05.4989 1654/7fd58114f700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /var/www/redmine: An error occurred while starting up the preloader.
+  Error ID: 536eb4d2
+  Error details saved to: /tmp/passenger-error-wyXZmh.html
+  Message from application: Access denied for user 'root'@'localhost' (using password: NO) (Mysql2::Error)
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/mysql2-0.3.21/lib/mysql2/client.rb:70:in `connect'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/mysql2-0.3.21/lib/mysql2/client.rb:70:in `initialize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:87:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/model_schema.rb:230:in `table_exists?'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:97:in `get_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:85:in `reset_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:73:in `primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_record/mass_assignment_security/attribute_assignment.rb:15:in `attributes_protected_by_default'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:337:in `block in protected_attributes_configs'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `yield'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `protected_attributes'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:126:in `block in attr_protected'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `attr_protected'
+  /var/www/redmine/app/models/custom_field.rb:36:in `<class:CustomField>'
+  /var/www/redmine/app/models/custom_field.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `block in load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:647:in `new_constants_in'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:456:in `load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:354:in `require_or_load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:494:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /var/www/redmine/lib/redmine/field_format.rb:87:in `field_attributes'
+  /var/www/redmine/lib/redmine/field_format.rb:90:in `<class:Base>'
+  /var/www/redmine/lib/redmine/field_format.rb:48:in `<module:FieldFormat>'
+  /var/www/redmine/lib/redmine/field_format.rb:19:in `<module:Redmine>'
+  /var/www/redmine/lib/redmine/field_format.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/lib/redmine.rb:38:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/config/initializers/30-redmine.rb:6:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/notifications.rb:166:in `instrument'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `run'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:226:in `block in tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:420:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:429:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:419:in `block in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:224:in `tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:203:in `tsort_each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/application.rb:352:in `initialize!'
+  /var/www/redmine/config/environment.rb:14:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `eval'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-05-12 13:09:05.5511 1654/7fd582151700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 536eb4d2. Please see earlier logs for details about the error.
+
+[ 2016-05-12 13:09:32.8181 1654/7fd582151700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:09:32.8184 1654/7fd5889227c0 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:09:32.8187 1654/7fd581950700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:09:32.8187 1654/7fd581950700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-05-12 13:09:32.8199 1654/7fd582151700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-05-12 13:09:32.8200 1654/7fd582151700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-05-12 13:09:32.8289 1659/7f2641cf6700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:09:32.8292 1659/7f26485027c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:09:32.8294 1659/7f26414f5700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:09:32.8294 1659/7f26414f5700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-05-12 13:09:32.8303 1659/7f2641cf6700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-05-12 13:09:32.8304 1659/7f26485027c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-05-12 13:09:32.8491 1654/7fd5889227c0 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-05-12 13:11:48.1670 1740/7fdc911647c0 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-05-12 13:11:48.2140 1743/7fb820ca97c0 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-05-12 13:11:48.2144 1743/7fb820ca97c0 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-05-12 13:11:48.2196 1743/7fb820ca97c0 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 1743
+[ 2016-05-12 13:11:48.2691 1748/7fb49bf337c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-05-12 13:11:48.2714 1748/7fb49bf337c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1748
+App 1781 stdout: 
+App 1781 stderr: /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/htmlentities-4.3.1/lib/htmlentities/mappings/expanded.rb:465: warning: duplicated key at line 466 ignored: "inodot"
+App 1781 stdout: 
+[ 2016-05-12 13:11:54.4991 1743/7fb8194d6700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /var/www/redmine: An error occurred while starting up the preloader.
+  Error ID: efc5b055
+  Error details saved to: /tmp/passenger-error-wRaJHw.html
+  Message from application: Access denied for user 'root'@'localhost' (using password: NO) (Mysql2::Error)
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/mysql2-0.3.21/lib/mysql2/client.rb:70:in `connect'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/mysql2-0.3.21/lib/mysql2/client.rb:70:in `initialize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:87:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/model_schema.rb:230:in `table_exists?'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:97:in `get_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:85:in `reset_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:73:in `primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_record/mass_assignment_security/attribute_assignment.rb:15:in `attributes_protected_by_default'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:337:in `block in protected_attributes_configs'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `yield'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `protected_attributes'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:126:in `block in attr_protected'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `attr_protected'
+  /var/www/redmine/app/models/custom_field.rb:36:in `<class:CustomField>'
+  /var/www/redmine/app/models/custom_field.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `block in load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:647:in `new_constants_in'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:456:in `load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:354:in `require_or_load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:494:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /var/www/redmine/lib/redmine/field_format.rb:87:in `field_attributes'
+  /var/www/redmine/lib/redmine/field_format.rb:90:in `<class:Base>'
+  /var/www/redmine/lib/redmine/field_format.rb:48:in `<module:FieldFormat>'
+  /var/www/redmine/lib/redmine/field_format.rb:19:in `<module:Redmine>'
+  /var/www/redmine/lib/redmine/field_format.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/lib/redmine.rb:38:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/config/initializers/30-redmine.rb:6:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/notifications.rb:166:in `instrument'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `run'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:226:in `block in tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:420:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:429:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:419:in `block in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:224:in `tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:203:in `tsort_each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/application.rb:352:in `initialize!'
+  /var/www/redmine/config/environment.rb:14:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `eval'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-05-12 13:11:54.5582 1743/7fb81a4d8700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is efc5b055. Please see earlier logs for details about the error.
+
+[ 2016-05-12 13:12:47.2871 1743/7fb81a4d8700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:12:47.2873 1743/7fb820ca97c0 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:12:47.2878 1743/7fb819cd7700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:12:47.2878 1743/7fb819cd7700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-05-12 13:12:47.2891 1743/7fb81a4d8700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-05-12 13:12:47.2891 1743/7fb81a4d8700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-05-12 13:12:47.2901 1748/7fb495727700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:12:47.2904 1748/7fb49bf337c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:12:47.2905 1748/7fb494f26700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:12:47.2906 1748/7fb494f26700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-05-12 13:12:47.2914 1748/7fb495727700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-05-12 13:12:47.2916 1748/7fb49bf337c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-05-12 13:12:47.3311 1743/7fb820ca97c0 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-05-12 13:14:43.0448 1883/7f56bc1f97c0 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-05-12 13:14:43.0890 1886/7f92800917c0 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-05-12 13:14:43.0893 1886/7f92800917c0 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-05-12 13:14:43.0943 1886/7f92800917c0 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 1886
+[ 2016-05-12 13:14:43.1459 1891/7f34a996f7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-05-12 13:14:43.1485 1891/7f34a996f7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1891
+App 1924 stdout: 
+App 1924 stderr: /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/htmlentities-4.3.1/lib/htmlentities/mappings/expanded.rb:465: warning: duplicated key at line 466 ignored: "inodot"
+App 1924 stdout: 
+[ 2016-05-12 13:14:49.3555 1886/7f92788be700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /var/www/redmine: An error occurred while starting up the preloader.
+  Error ID: 61ab73a2
+  Error details saved to: /tmp/passenger-error-f23V4M.html
+  Message from application: Unknown database 'redmine_development' (ActiveRecord::NoDatabaseError)
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:87:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/model_schema.rb:230:in `table_exists?'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:97:in `get_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:85:in `reset_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:73:in `primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_record/mass_assignment_security/attribute_assignment.rb:15:in `attributes_protected_by_default'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:337:in `block in protected_attributes_configs'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `yield'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `protected_attributes'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:126:in `block in attr_protected'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `attr_protected'
+  /var/www/redmine/app/models/custom_field.rb:36:in `<class:CustomField>'
+  /var/www/redmine/app/models/custom_field.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `block in load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:647:in `new_constants_in'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:456:in `load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:354:in `require_or_load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:494:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /var/www/redmine/lib/redmine/field_format.rb:87:in `field_attributes'
+  /var/www/redmine/lib/redmine/field_format.rb:90:in `<class:Base>'
+  /var/www/redmine/lib/redmine/field_format.rb:48:in `<module:FieldFormat>'
+  /var/www/redmine/lib/redmine/field_format.rb:19:in `<module:Redmine>'
+  /var/www/redmine/lib/redmine/field_format.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/lib/redmine.rb:38:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/config/initializers/30-redmine.rb:6:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/notifications.rb:166:in `instrument'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `run'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:226:in `block in tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:420:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:429:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:419:in `block in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:224:in `tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:203:in `tsort_each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/application.rb:352:in `initialize!'
+  /var/www/redmine/config/environment.rb:14:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `eval'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-05-12 13:14:49.4072 1886/7f92798c0700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 61ab73a2. Please see earlier logs for details about the error.
+
+[ 2016-05-12 13:15:53.9287 1886/7f92798c0700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:15:53.9292 1886/7f92800917c0 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:15:53.9294 1886/7f92790bf700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:15:53.9294 1886/7f92790bf700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-05-12 13:15:53.9307 1886/7f92798c0700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-05-12 13:15:53.9307 1886/7f92798c0700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-05-12 13:15:53.9388 1891/7f34a3163700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:15:53.9393 1891/7f34a996f7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:15:53.9396 1891/7f34a2962700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:15:53.9396 1891/7f34a2962700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-05-12 13:15:53.9406 1891/7f34a3163700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-05-12 13:15:53.9408 1891/7f34a996f7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-05-12 13:15:53.9683 1886/7f92800917c0 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-05-12 13:17:09.6709 1977/7f680f8327c0 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-05-12 13:17:09.7168 1980/7f82106977c0 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-05-12 13:17:09.7174 1980/7f82106977c0 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-05-12 13:17:09.7231 1980/7f82106977c0 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 1980
+[ 2016-05-12 13:17:09.7741 1985/7f7d250ee7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-05-12 13:17:09.7764 1985/7f7d250ee7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1985
+App 2018 stdout: 
+App 2018 stderr: /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/htmlentities-4.3.1/lib/htmlentities/mappings/expanded.rb:465: warning: duplicated key at line 466 ignored: "inodot"
+App 2018 stdout: 
+[ 2016-05-12 13:17:15.6300 1980/7f8208ec4700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /var/www/redmine: An error occurred while starting up the preloader.
+  Error ID: e9ede967
+  Error details saved to: /tmp/passenger-error-TTYK2N.html
+  Message from application: 'development' database is not configured. Available: ["production", "test"] (ActiveRecord::AdapterNotSpecified)
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/connection_specification.rb:248:in `resolve_symbol_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/connection_specification.rb:211:in `resolve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/connection_specification.rb:139:in `resolve'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/connection_specification.rb:169:in `spec'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:50:in `establish_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/lazy_load_hooks.rb:44:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/base.rb:315:in `<module:ActiveRecord>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/base.rb:26:in `<top (required)>'
+  /var/www/redmine/lib/plugins/acts_as_activity_provider/init.rb:2:in `block in <top (required)>'
+  /var/www/redmine/config/initializers/00-core_plugins.rb:12:in `eval'
+  /var/www/redmine/config/initializers/00-core_plugins.rb:12:in `block in <top (required)>'
+  /var/www/redmine/config/initializers/00-core_plugins.rb:2:in `each'
+  /var/www/redmine/config/initializers/00-core_plugins.rb:2:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/notifications.rb:166:in `instrument'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `run'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:226:in `block in tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:420:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:429:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:419:in `block in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:224:in `tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:203:in `tsort_each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/application.rb:352:in `initialize!'
+  /var/www/redmine/config/environment.rb:14:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `eval'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-05-12 13:17:15.6819 1980/7f8209ec6700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is e9ede967. Please see earlier logs for details about the error.
+
+[ 2016-05-12 13:18:11.9630 1980/7f8209ec6700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:18:11.9632 1980/7f82106977c0 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:18:11.9638 1980/7f82096c5700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:18:11.9638 1980/7f82096c5700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-05-12 13:18:11.9661 1980/7f8209ec6700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-05-12 13:18:11.9661 1980/7f8209ec6700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-05-12 13:18:11.9669 1985/7f7d1e8e2700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:18:11.9671 1985/7f7d250ee7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:18:11.9673 1985/7f7d1e0e1700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:18:11.9673 1985/7f7d1e0e1700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-05-12 13:18:11.9686 1985/7f7d1e8e2700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-05-12 13:18:11.9689 1985/7f7d250ee7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-05-12 13:18:12.0054 1980/7f82106977c0 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-05-12 13:21:44.2025 2125/7f420520a7c0 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-05-12 13:21:44.2484 2128/7ff1222197c0 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-05-12 13:21:44.2489 2128/7ff1222197c0 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-05-12 13:21:44.2542 2128/7ff1222197c0 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 2128
+[ 2016-05-12 13:21:44.3051 2133/7f54b378d7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-05-12 13:21:44.3075 2133/7f54b378d7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2133
+App 2166 stdout: 
+App 2166 stderr: /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/htmlentities-4.3.1/lib/htmlentities/mappings/expanded.rb:465: warning: duplicated key at line 466 ignored: "inodot"
+App 2166 stdout: 
+[ 2016-05-12 13:21:50.5406 2128/7ff11aa46700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /var/www/redmine: An error occurred while starting up the preloader.
+  Error ID: 26b9d4c7
+  Error details saved to: /tmp/passenger-error-i95AMm.html
+  Message from application: Unknown database 'redmine_development' (ActiveRecord::NoDatabaseError)
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:87:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/model_schema.rb:230:in `table_exists?'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:97:in `get_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:85:in `reset_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:73:in `primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_record/mass_assignment_security/attribute_assignment.rb:15:in `attributes_protected_by_default'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:337:in `block in protected_attributes_configs'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `yield'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `protected_attributes'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:126:in `block in attr_protected'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `attr_protected'
+  /var/www/redmine/app/models/custom_field.rb:36:in `<class:CustomField>'
+  /var/www/redmine/app/models/custom_field.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `block in load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:647:in `new_constants_in'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:456:in `load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:354:in `require_or_load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:494:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /var/www/redmine/lib/redmine/field_format.rb:87:in `field_attributes'
+  /var/www/redmine/lib/redmine/field_format.rb:90:in `<class:Base>'
+  /var/www/redmine/lib/redmine/field_format.rb:48:in `<module:FieldFormat>'
+  /var/www/redmine/lib/redmine/field_format.rb:19:in `<module:Redmine>'
+  /var/www/redmine/lib/redmine/field_format.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/lib/redmine.rb:38:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/config/initializers/30-redmine.rb:6:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/notifications.rb:166:in `instrument'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `run'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:226:in `block in tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:420:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:429:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:419:in `block in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:224:in `tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:203:in `tsort_each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/application.rb:352:in `initialize!'
+  /var/www/redmine/config/environment.rb:14:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `eval'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-05-12 13:21:50.5969 2128/7ff11ba48700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 26b9d4c7. Please see earlier logs for details about the error.
+
+[ 2016-05-12 13:26:41.2437 2128/7ff11ba48700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:26:41.2441 2128/7ff1222197c0 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:26:41.2443 2128/7ff11b247700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:26:41.2443 2128/7ff11b247700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-05-12 13:26:41.2456 2128/7ff11ba48700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-05-12 13:26:41.2457 2128/7ff11ba48700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-05-12 13:26:41.2502 2133/7f54acf81700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:26:41.2504 2133/7f54b378d7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:26:41.2506 2133/7f54a7fff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:26:41.2506 2133/7f54a7fff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-05-12 13:26:41.2516 2133/7f54acf81700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-05-12 13:26:41.2520 2133/7f54b378d7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-05-12 13:26:41.2847 2128/7ff1222197c0 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-05-12 13:48:15.2823 2361/7f2f096897c0 age/Wat/WatchdogMain.cpp:1301 ]: Starting Passenger watchdog...
+[ 2016-05-12 13:48:15.3288 2364/7f20f83d47c0 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-05-12 13:48:15.3292 2364/7f20f83d47c0 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-05-12 13:48:15.3343 2364/7f20f83d47c0 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 2364
+[ 2016-05-12 13:48:15.3867 2369/7f60987f77c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-05-12 13:48:15.3898 2369/7f60987f77c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2369
+App 2402 stdout: 
+App 2402 stderr: /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/htmlentities-4.3.1/lib/htmlentities/mappings/expanded.rb:465: warning: duplicated key at line 466 ignored: "inodot"
+App 2402 stdout: 
+[ 2016-05-12 13:48:22.3434 2364/7f20f0c01700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /var/www/redmine: An error occurred while starting up the preloader.
+  Error ID: c447599d
+  Error details saved to: /tmp/passenger-error-ie0lYa.html
+  Message from application: Unknown database 'redmine_development' (ActiveRecord::NoDatabaseError)
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/connection_handling.rb:87:in `connection'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/model_schema.rb:230:in `table_exists?'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:97:in `get_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:85:in `reset_primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activerecord-4.2.5.2/lib/active_record/attribute_methods/primary_key.rb:73:in `primary_key'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_record/mass_assignment_security/attribute_assignment.rb:15:in `attributes_protected_by_default'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:337:in `block in protected_attributes_configs'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `yield'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:222:in `protected_attributes'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:126:in `block in attr_protected'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/protected_attributes-1.1.3/lib/active_model/mass_assignment_security.rb:125:in `attr_protected'
+  /var/www/redmine/app/models/custom_field.rb:36:in `<class:CustomField>'
+  /var/www/redmine/app/models/custom_field.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:457:in `block in load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:647:in `new_constants_in'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:456:in `load_file'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:354:in `require_or_load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:494:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:526:in `load_missing_constant'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:184:in `const_missing'
+  /var/www/redmine/lib/redmine/field_format.rb:87:in `field_attributes'
+  /var/www/redmine/lib/redmine/field_format.rb:90:in `<class:Base>'
+  /var/www/redmine/lib/redmine/field_format.rb:48:in `<module:FieldFormat>'
+  /var/www/redmine/lib/redmine/field_format.rb:19:in `<module:Redmine>'
+  /var/www/redmine/lib/redmine/field_format.rb:18:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/lib/redmine.rb:38:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `block in require'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:274:in `require'
+  /var/www/redmine/config/initializers/30-redmine.rb:6:in `<top (required)>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `block in load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:240:in `load_dependency'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/dependencies.rb:268:in `load'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:652:in `block in load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/activesupport-4.2.5.2/lib/active_support/notifications.rb:166:in `instrument'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:651:in `load_config_initializer'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/engine.rb:615:in `block in <class:Engine>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:30:in `run'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:226:in `block in tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:420:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:429:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:419:in `block in each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:413:in `each_strongly_connected_component_from'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `call'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:224:in `tsort_each'
+  /home/plarredondo/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/tsort.rb:203:in `tsort_each'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/application.rb:352:in `initialize!'
+  /var/www/redmine/config/environment.rb:14:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /home/plarredondo/.rvm/gems/ruby-2.2.4/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `eval'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /usr/share/passenger/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-05-12 13:48:22.3957 2364/7f20f1c03700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is c447599d. Please see earlier logs for details about the error.
+
+[ 2016-05-12 13:52:48.8999 2364/7f20f1c03700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:52:48.9001 2364/7f20f83d47c0 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:52:48.9014 2364/7f20f1402700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:52:48.9015 2364/7f20f1402700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-05-12 13:52:48.9030 2364/7f20f1c03700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-05-12 13:52:48.9030 2364/7f20f1c03700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2016-05-12 13:52:48.9105 2369/7f6091feb700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-05-12 13:52:48.9110 2369/7f60987f77c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-05-12 13:52:48.9113 2369/7f60917ea700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-05-12 13:52:48.9114 2369/7f60917ea700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-05-12 13:52:48.9126 2369/7f6091feb700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-05-12 13:52:48.9128 2369/7f60987f77c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-05-12 13:52:48.9407 2364/7f20f83d47c0 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
